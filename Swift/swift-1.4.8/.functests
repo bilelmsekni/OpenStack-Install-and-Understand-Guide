@@ -1,9 +1,0 @@
-#!/bin/bash
-
-cd test/functional
-nosetests --exe $@
-cd -
-
-cd test/functionalnosetests
-nosetests --exe $@
-cd -

@@ -1,6 +1,0 @@
-include tox.ini
-include LICENSE README
-include version.py
-include tools/*
-include quantum/client/tests/*
-include quantum/client/tests/unit/*
