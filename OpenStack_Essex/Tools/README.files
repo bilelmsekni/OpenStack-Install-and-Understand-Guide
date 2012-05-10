@@ -1,0 +1,58 @@
+This compressed tar archive contains files relevant to this machine image.
+Each filename is prefixed by a constant string denoting release and
+architecture information.  The prefix, for example, may be
+'maverick-server-cloudimg-amd64', in which case files will be named like
+  maverick-server-cloudimg-amd64.img
+  maverick-server-cloudimg-amd64-vmlinuz-virtual
+
+All or some of the following files may be present in the archive:
+
+- <prefix>.img
+  This file is an partition image.  It can be bundled, uploaded and
+  registered to EC2 or UEC as a Amazon Machine Image (aki/eki).
+
+- <prefix>-vmlinuz-virtual
+  This is a Linux kernel.  It can be bundled, uploaded, and registered
+  UEC as an Amazon Kernel Image (aki/eki).  The '-virtual' string
+  represents the Ubuntu Linux package that this kernel came from.  It
+  could potentially be '-server' or another string.
+
+- <prefix>-initrd-virtual
+  This is a Linux initrd.  It can be bundled, uploaded, and registered
+  UEC as an Amazon Ramdisk Image (ari/eri). Not all images require an
+  initrd, and thus this file may not be present.  If it is not present,
+  then the image should be registered without a ramdisk.
+
+- <prefix>-loader
+  This file is a multiboot compliant image capable of loading the
+  guest image. On UEC installs where the host operating system is 10.10 or
+  later (LP: #611144), this can registered as a kernel (eki).
+  It provides function similar to the Amazon released feature 
+  "Enabling User Provided Kernels".  When the loader is used to boot an
+  instance, a kernel upgrade performed inside the instance will take
+  affect on subsequent boots.
+
+- <prefix>-floppy
+  This file is a floppy disk image.  It is not useful or relevant to
+  running inside of EC2 or UEC.
+  The purpose of this file is to allow booting the image outside a cloud.
+  To boot outside of a cloud environment (where a metadata service is not
+  present), the following kvm command line can be used:
+     kvm -boot a -fda <prefix>-floppy -drive file=<prefix>.img,if=virtio
+
+Other notes:
+- This tar file is constructed such that it can be easily
+  bundled uploaded and registered using 'cloud-publish-tarball' as an admin
+  by invoking 
+    cloud-publish-tarball tarfile.tar.gz my-bucket i386
+  or, to use the loader file as
+    cloud-publish-tarball --use-loader tarfile.tar.gz my-bucket i386
+- The image file (.img) can be resized before uploading by using
+  'cloud-resize-image', as:
+    cloud-resize-image <prefix>.img 5G
+  or, resized before uploading with cloud-publish-tarball by:
+    cloud-publish-tarball --resize 5G tarfile.tar.gz my-bucket i386
+
+   *Note*: in 11.10 and beyond, 'uec' as a prefix to the commands below is
+      replaced with 'cloud'. So, 'cloud-publish-tarball' may be 'uec-publish-tarball'
+      in your cloud-utils package. Just substitite accordingly.

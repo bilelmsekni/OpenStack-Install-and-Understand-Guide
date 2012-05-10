@@ -1,0 +1,50 @@
+{% load i18n sizeformat parse_date %}
+
+<h3>{% trans "Volume Overview" %}: {{volume.display_name }}</h3>
+
+<div class="info row-fluid">
+  <h4>{% trans "Info" %}</h4>
+  <hr class="header_rule">
+  <dl>
+    <dt>{% trans "Name" %}</dt>
+    <dd>{{ volume.display_name }}</dd>
+    <dt>{% trans "ID" %}</dt>
+    <dd>{{ volume.id }}</dd>
+    {% if volume.display_description %}
+    <dt>{% trans "Description" %}</dt>
+    <dd>{{ volume.display_description }}</dd>
+    {% endif %}
+    <dt>{% trans "Status" %}</dt>
+    <dd>{{ volume.status|capfirst }}</dd>
+  </dl>
+</div>
+
+<div class="specs row-fluid">
+  <h4>{% trans "Specs" %}</h4>
+  <hr class="header_rule">
+  <dl>
+    <dt>{% trans "Size" %}</dt>
+    <dd>{{ volume.size }} {% trans "GB" %}</dd>
+    <dt>{% trans "Created" %}</dt>
+    <dd>{{ volume.created_at|parse_date }}</dd>
+  </dl>
+</div>
+
+<div class="status row-fluid">
+  <h4>{% trans "Attachments" %}</h4>
+  <hr class="header_rule">
+  {% for attachment in volume.attachments %}
+    <dl>
+      <dt>{% trans "Attached To" %}<dt>
+      <dd>
+        {% url horizon:nova:instances_and_volumes:instances:detail attachment.server_id as instance_url%}
+        <a href="{{ instance_url }}">{% trans "Instance" %} {{ attachment.instance.name }} ({{ attachment.instance.id }})</a>
+        <span> {% trans "on" %} {{ attachment.device }}</span>
+      </dd>
+    </dl>
+  {% empty %}
+    <ul>
+      <li><em>{% trans "Not attached" %}</em></li>
+    </ul>
+  {% endfor %}
+</div>

@@ -1,0 +1,15 @@
+_nova()
+{
+    local cur prev opts
+    COMPREPLY=()
+    cur="${COMP_WORDS[COMP_CWORD]}"
+    prev="${COMP_WORDS[COMP_CWORD-1]}"
+
+    opts="$(nova bash_completion)"
+
+    COMPLETION_CACHE=~/.novaclient/*/*-cache
+    opts+=" "$(cat $COMPLETION_CACHE 2> /dev/null | tr '\n' ' ')
+
+    COMPREPLY=( $(compgen -W "${opts}" -- ${cur}) )
+}
+complete -F _nova nova

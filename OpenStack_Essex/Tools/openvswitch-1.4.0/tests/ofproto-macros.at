@@ -1,0 +1,42 @@
+m4_define([STRIP_XIDS], [[sed 's/ (xid=0x[0-9a-fA-F]*)//']])
+m4_define([STRIP_DURATION], [[sed 's/\bduration=[0-9.]*s/duration=?s/']])
+m4_define([TESTABLE_LOG], [-vPATTERN:ANY:'%c|%p|%m'])
+
+m4_define([OVS_VSWITCHD_START],
+  [OVS_RUNDIR=$PWD; export OVS_RUNDIR
+   OVS_LOGDIR=$PWD; export OVS_LOGDIR
+   OVS_SYSCONFDIR=$PWD; export OVS_SYSCONFDIR
+   trap 'kill `cat ovsdb-server.pid ovs-vswitchd.pid`' 0
+
+   dnl Create database.
+   mkdir openvswitch
+   touch openvswitch/.conf.db.~lock~
+   AT_CHECK([ovsdb-tool create openvswitch/conf.db $abs_top_srcdir/vswitchd/vswitch.ovsschema])
+
+   dnl Start ovsdb-server.
+   AT_CHECK([ovsdb-server --detach --pidfile --log-file --remote=punix:$OVS_RUNDIR/db.sock], [0], [], [stderr])
+   AT_CHECK([[sed < stderr '/vlog|INFO|opened log file/d']])
+   AT_CAPTURE_FILE([ovsdb-server.log])
+
+   dnl Initialize database.
+   AT_CHECK([ovs-vsctl --no-wait init])
+
+   dnl Start ovs-vswitchd.
+   AT_CHECK([ovs-vswitchd --detach --pidfile --enable-dummy --disable-system --log-file], [0], [], [stderr])
+   AT_CAPTURE_FILE([ovs-vswitchd.log])
+   AT_CHECK([[sed < stderr '
+/vlog|INFO|opened log file/d
+/reconnect|INFO|/d
+/dpif_linux|ERR|Generic Netlink family.*does not exist/d
+/dpif|WARN|failed to enumerate system datapaths: No such file or directory/d
+/ofproto|INFO|using datapath ID/d
+/ofproto|INFO|datapath ID changed to fedcba9876543210/d']])
+
+   dnl Add bridges, ports, etc.
+   AT_CHECK([ovs-vsctl -- add-br br0 -- set bridge br0 datapath-type=dummy other-config:datapath-id=fedcba9876543210 other-config:hwaddr=aa:55:aa:55:00:00 fail-mode=secure -- $1])
+])
+
+m4_define([OVS_VSWITCHD_STOP],
+  [AT_CHECK([ovs-appctl -t ovs-vswitchd exit])
+   AT_CHECK([ovs-appctl -t ovsdb-server exit])
+   trap '' 0])

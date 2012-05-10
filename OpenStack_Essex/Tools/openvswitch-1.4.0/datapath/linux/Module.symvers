@@ -1,0 +1,2 @@
+0x367ff0f8	ovs_dp_ioctl_hook	/home/rs2m/OpenStack_Essex/Tools/openvswitch-1.4.0/datapath/linux/openvswitch_mod	EXPORT_SYMBOL
+0xfd62f321	br_should_route_hook	/home/rs2m/OpenStack_Essex/Tools/openvswitch-1.4.0/datapath/linux/brcompat_mod	EXPORT_SYMBOL
