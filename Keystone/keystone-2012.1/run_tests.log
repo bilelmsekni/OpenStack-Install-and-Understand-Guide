@@ -1,0 +1,170 @@
+/usr/local/lib/python2.7/dist-packages/passlib/utils/handlers.py:957: UserWarning: sha512_crypt does not allow less than 1000 rounds: 10
+  warn("%s does not allow less than %d rounds: %d" % (cls.name, mn, rounds))
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:681: SADeprecationWarning: The 'listeners' argument to Pool (and create_engine()) is deprecated.  Use event.listen().
+  Pool.__init__(self, creator, **kw)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:159: SADeprecationWarning: Pool.add_listener is deprecated.  Use event.listen()
+  self.add_listener(l)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:681: SADeprecationWarning: The 'listeners' argument to Pool (and create_engine()) is deprecated.  Use event.listen().
+  Pool.__init__(self, creator, **kw)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:159: SADeprecationWarning: Pool.add_listener is deprecated.  Use event.listen()
+  self.add_listener(l)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:681: SADeprecationWarning: The 'listeners' argument to Pool (and create_engine()) is deprecated.  Use event.listen().
+  Pool.__init__(self, creator, **kw)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:159: SADeprecationWarning: Pool.add_listener is deprecated.  Use event.listen()
+  self.add_listener(l)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:681: SADeprecationWarning: The 'listeners' argument to Pool (and create_engine()) is deprecated.  Use event.listen().
+  Pool.__init__(self, creator, **kw)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:159: SADeprecationWarning: Pool.add_listener is deprecated.  Use event.listen()
+  self.add_listener(l)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:681: SADeprecationWarning: The 'listeners' argument to Pool (and create_engine()) is deprecated.  Use event.listen().
+  Pool.__init__(self, creator, **kw)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:159: SADeprecationWarning: Pool.add_listener is deprecated.  Use event.listen()
+  self.add_listener(l)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:681: SADeprecationWarning: The 'listeners' argument to Pool (and create_engine()) is deprecated.  Use event.listen().
+  Pool.__init__(self, creator, **kw)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:159: SADeprecationWarning: Pool.add_listener is deprecated.  Use event.listen()
+  self.add_listener(l)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:681: SADeprecationWarning: The 'listeners' argument to Pool (and create_engine()) is deprecated.  Use event.listen().
+  Pool.__init__(self, creator, **kw)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:159: SADeprecationWarning: Pool.add_listener is deprecated.  Use event.listen()
+  self.add_listener(l)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:681: SADeprecationWarning: The 'listeners' argument to Pool (and create_engine()) is deprecated.  Use event.listen().
+  Pool.__init__(self, creator, **kw)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:159: SADeprecationWarning: Pool.add_listener is deprecated.  Use event.listen()
+  self.add_listener(l)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:681: SADeprecationWarning: The 'listeners' argument to Pool (and create_engine()) is deprecated.  Use event.listen().
+  Pool.__init__(self, creator, **kw)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:159: SADeprecationWarning: Pool.add_listener is deprecated.  Use event.listen()
+  self.add_listener(l)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:681: SADeprecationWarning: The 'listeners' argument to Pool (and create_engine()) is deprecated.  Use event.listen().
+  Pool.__init__(self, creator, **kw)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:159: SADeprecationWarning: Pool.add_listener is deprecated.  Use event.listen()
+  self.add_listener(l)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:681: SADeprecationWarning: The 'listeners' argument to Pool (and create_engine()) is deprecated.  Use event.listen().
+  Pool.__init__(self, creator, **kw)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:159: SADeprecationWarning: Pool.add_listener is deprecated.  Use event.listen()
+  self.add_listener(l)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:681: SADeprecationWarning: The 'listeners' argument to Pool (and create_engine()) is deprecated.  Use event.listen().
+  Pool.__init__(self, creator, **kw)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:159: SADeprecationWarning: Pool.add_listener is deprecated.  Use event.listen()
+  self.add_listener(l)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:681: SADeprecationWarning: The 'listeners' argument to Pool (and create_engine()) is deprecated.  Use event.listen().
+  Pool.__init__(self, creator, **kw)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:159: SADeprecationWarning: Pool.add_listener is deprecated.  Use event.listen()
+  self.add_listener(l)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:681: SADeprecationWarning: The 'listeners' argument to Pool (and create_engine()) is deprecated.  Use event.listen().
+  Pool.__init__(self, creator, **kw)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:159: SADeprecationWarning: Pool.add_listener is deprecated.  Use event.listen()
+  self.add_listener(l)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:681: SADeprecationWarning: The 'listeners' argument to Pool (and create_engine()) is deprecated.  Use event.listen().
+  Pool.__init__(self, creator, **kw)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:159: SADeprecationWarning: Pool.add_listener is deprecated.  Use event.listen()
+  self.add_listener(l)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:681: SADeprecationWarning: The 'listeners' argument to Pool (and create_engine()) is deprecated.  Use event.listen().
+  Pool.__init__(self, creator, **kw)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:159: SADeprecationWarning: Pool.add_listener is deprecated.  Use event.listen()
+  self.add_listener(l)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:681: SADeprecationWarning: The 'listeners' argument to Pool (and create_engine()) is deprecated.  Use event.listen().
+  Pool.__init__(self, creator, **kw)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:159: SADeprecationWarning: Pool.add_listener is deprecated.  Use event.listen()
+  self.add_listener(l)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:681: SADeprecationWarning: The 'listeners' argument to Pool (and create_engine()) is deprecated.  Use event.listen().
+  Pool.__init__(self, creator, **kw)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:159: SADeprecationWarning: Pool.add_listener is deprecated.  Use event.listen()
+  self.add_listener(l)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:681: SADeprecationWarning: The 'listeners' argument to Pool (and create_engine()) is deprecated.  Use event.listen().
+  Pool.__init__(self, creator, **kw)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:159: SADeprecationWarning: Pool.add_listener is deprecated.  Use event.listen()
+  self.add_listener(l)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:681: SADeprecationWarning: The 'listeners' argument to Pool (and create_engine()) is deprecated.  Use event.listen().
+  Pool.__init__(self, creator, **kw)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:159: SADeprecationWarning: Pool.add_listener is deprecated.  Use event.listen()
+  self.add_listener(l)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:681: SADeprecationWarning: The 'listeners' argument to Pool (and create_engine()) is deprecated.  Use event.listen().
+  Pool.__init__(self, creator, **kw)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:159: SADeprecationWarning: Pool.add_listener is deprecated.  Use event.listen()
+  self.add_listener(l)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:681: SADeprecationWarning: The 'listeners' argument to Pool (and create_engine()) is deprecated.  Use event.listen().
+  Pool.__init__(self, creator, **kw)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:159: SADeprecationWarning: Pool.add_listener is deprecated.  Use event.listen()
+  self.add_listener(l)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:681: SADeprecationWarning: The 'listeners' argument to Pool (and create_engine()) is deprecated.  Use event.listen().
+  Pool.__init__(self, creator, **kw)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:159: SADeprecationWarning: Pool.add_listener is deprecated.  Use event.listen()
+  self.add_listener(l)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:681: SADeprecationWarning: The 'listeners' argument to Pool (and create_engine()) is deprecated.  Use event.listen().
+  Pool.__init__(self, creator, **kw)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:159: SADeprecationWarning: Pool.add_listener is deprecated.  Use event.listen()
+  self.add_listener(l)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:681: SADeprecationWarning: The 'listeners' argument to Pool (and create_engine()) is deprecated.  Use event.listen().
+  Pool.__init__(self, creator, **kw)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:159: SADeprecationWarning: Pool.add_listener is deprecated.  Use event.listen()
+  self.add_listener(l)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:681: SADeprecationWarning: The 'listeners' argument to Pool (and create_engine()) is deprecated.  Use event.listen().
+  Pool.__init__(self, creator, **kw)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:159: SADeprecationWarning: Pool.add_listener is deprecated.  Use event.listen()
+  self.add_listener(l)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:681: SADeprecationWarning: The 'listeners' argument to Pool (and create_engine()) is deprecated.  Use event.listen().
+  Pool.__init__(self, creator, **kw)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:159: SADeprecationWarning: Pool.add_listener is deprecated.  Use event.listen()
+  self.add_listener(l)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:681: SADeprecationWarning: The 'listeners' argument to Pool (and create_engine()) is deprecated.  Use event.listen().
+  Pool.__init__(self, creator, **kw)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:159: SADeprecationWarning: Pool.add_listener is deprecated.  Use event.listen()
+  self.add_listener(l)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:681: SADeprecationWarning: The 'listeners' argument to Pool (and create_engine()) is deprecated.  Use event.listen().
+  Pool.__init__(self, creator, **kw)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:159: SADeprecationWarning: Pool.add_listener is deprecated.  Use event.listen()
+  self.add_listener(l)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:681: SADeprecationWarning: The 'listeners' argument to Pool (and create_engine()) is deprecated.  Use event.listen().
+  Pool.__init__(self, creator, **kw)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:159: SADeprecationWarning: Pool.add_listener is deprecated.  Use event.listen()
+  self.add_listener(l)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:681: SADeprecationWarning: The 'listeners' argument to Pool (and create_engine()) is deprecated.  Use event.listen().
+  Pool.__init__(self, creator, **kw)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:159: SADeprecationWarning: Pool.add_listener is deprecated.  Use event.listen()
+  self.add_listener(l)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:681: SADeprecationWarning: The 'listeners' argument to Pool (and create_engine()) is deprecated.  Use event.listen().
+  Pool.__init__(self, creator, **kw)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:159: SADeprecationWarning: Pool.add_listener is deprecated.  Use event.listen()
+  self.add_listener(l)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:681: SADeprecationWarning: The 'listeners' argument to Pool (and create_engine()) is deprecated.  Use event.listen().
+  Pool.__init__(self, creator, **kw)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:159: SADeprecationWarning: Pool.add_listener is deprecated.  Use event.listen()
+  self.add_listener(l)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:681: SADeprecationWarning: The 'listeners' argument to Pool (and create_engine()) is deprecated.  Use event.listen().
+  Pool.__init__(self, creator, **kw)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:159: SADeprecationWarning: Pool.add_listener is deprecated.  Use event.listen()
+  self.add_listener(l)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:681: SADeprecationWarning: The 'listeners' argument to Pool (and create_engine()) is deprecated.  Use event.listen().
+  Pool.__init__(self, creator, **kw)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:159: SADeprecationWarning: Pool.add_listener is deprecated.  Use event.listen()
+  self.add_listener(l)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:681: SADeprecationWarning: The 'listeners' argument to Pool (and create_engine()) is deprecated.  Use event.listen().
+  Pool.__init__(self, creator, **kw)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:159: SADeprecationWarning: Pool.add_listener is deprecated.  Use event.listen()
+  self.add_listener(l)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:681: SADeprecationWarning: The 'listeners' argument to Pool (and create_engine()) is deprecated.  Use event.listen().
+  Pool.__init__(self, creator, **kw)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:159: SADeprecationWarning: Pool.add_listener is deprecated.  Use event.listen()
+  self.add_listener(l)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:681: SADeprecationWarning: The 'listeners' argument to Pool (and create_engine()) is deprecated.  Use event.listen().
+  Pool.__init__(self, creator, **kw)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:159: SADeprecationWarning: Pool.add_listener is deprecated.  Use event.listen()
+  self.add_listener(l)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:681: SADeprecationWarning: The 'listeners' argument to Pool (and create_engine()) is deprecated.  Use event.listen().
+  Pool.__init__(self, creator, **kw)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:159: SADeprecationWarning: Pool.add_listener is deprecated.  Use event.listen()
+  self.add_listener(l)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:681: SADeprecationWarning: The 'listeners' argument to Pool (and create_engine()) is deprecated.  Use event.listen().
+  Pool.__init__(self, creator, **kw)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:159: SADeprecationWarning: Pool.add_listener is deprecated.  Use event.listen()
+  self.add_listener(l)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:681: SADeprecationWarning: The 'listeners' argument to Pool (and create_engine()) is deprecated.  Use event.listen().
+  Pool.__init__(self, creator, **kw)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:159: SADeprecationWarning: Pool.add_listener is deprecated.  Use event.listen()
+  self.add_listener(l)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:681: SADeprecationWarning: The 'listeners' argument to Pool (and create_engine()) is deprecated.  Use event.listen().
+  Pool.__init__(self, creator, **kw)
+/usr/local/lib/python2.7/dist-packages/SQLAlchemy-0.7.6-py2.7-linux-x86_64.egg/sqlalchemy/pool.py:159: SADeprecationWarning: Pool.add_listener is deprecated.  Use event.listen()
+  self.add_listener(l)
