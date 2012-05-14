@@ -1,0 +1,19 @@
+include run_tests.sh ChangeLog
+include README.rst builddeb.sh
+include MANIFEST.in pylintrc
+include Authors
+include run_tests.py
+include HACKING.rst
+include LICENSE
+include babel.cfg tox.ini
+include glance/locale/glance.pot
+include glance/registry/db/migrate_repo/README
+include glance/registry/db/migrate_repo/migrate.cfg
+include glance/registry/db/migrate_repo/versions/*.sql
+include glance/tests/unit/test_migrations.conf
+include glance/tests/functional/data/*
+include glance/tests/etc/*
+include glance/tests/var/*
+graft doc
+graft etc
+graft tools

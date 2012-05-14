@@ -1,0 +1,2 @@
+kernel//home/rs2m/OpenStack_Essex/Tools/openvswitch-1.4.0/datapath/linux/openvswitch_mod.ko
+kernel//home/rs2m/OpenStack_Essex/Tools/openvswitch-1.4.0/datapath/linux/brcompat_mod.ko

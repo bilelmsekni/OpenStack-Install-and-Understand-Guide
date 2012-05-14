@@ -1,0 +1,266 @@
+2012-04-23 15:47:26    DEBUG [quantum.service] ********************************************************************************
+2012-04-23 15:47:26    DEBUG [quantum.service] Configuration options gathered from config file:
+2012-04-23 15:47:26    DEBUG [quantum.service] /home/rs2m/OpenStack_Essex/Quantum/quantum-2012.1/etc/quantum.conf
+2012-04-23 15:47:26    DEBUG [quantum.service] ================================================
+2012-04-23 15:47:26    DEBUG [quantum.service] /                              quantumversions
+2012-04-23 15:47:26    DEBUG [quantum.service] /v1.0                          quantumapi_v1_0
+2012-04-23 15:47:26    DEBUG [quantum.service] /v1.1                          quantumapi_v1_1
+2012-04-23 15:47:26    DEBUG [quantum.service] api_extensions_path            /home/rs2m/OpenStack_Essex/Quantum/quantum-2012.1/quantum/extensions
+2012-04-23 15:47:26    DEBUG [quantum.service] bind_host                      0.0.0.0
+2012-04-23 15:47:26    DEBUG [quantum.service] bind_port                      9696
+2012-04-23 15:47:26    DEBUG [quantum.service] debug                          True
+2012-04-23 15:47:26    DEBUG [quantum.service] verbose                        True
+2012-04-23 15:47:26    DEBUG [quantum.service] ********************************************************************************
+2012-04-23 15:47:26     INFO [quantum.service] Using paste.deploy config at: /home/rs2m/OpenStack_Essex/Quantum/quantum-2012.1/etc/quantum.conf
+2012-04-23 15:47:26    DEBUG [quantum.manager] Plugin location:quantum.plugins.openvswitch.ovs_quantum_plugin.OVSQuantumPlugin
+2012-04-23 15:47:26    DEBUG [quantum.manager] Successfully imported Quantum plug-in.All compatibility tests passed
+2012-04-23 15:47:26    DEBUG [root] Using configuration file: /home/rs2m/OpenStack_Essex/Quantum/quantum-2012.1/etc/quantum/plugins/openvswitch/ovs_quantum_plugin.ini
+2012-04-23 15:47:26    DEBUG [root] Config: <ConfigParser.ConfigParser instance at 0x2ee0e18>
+2012-04-23 15:47:26    DEBUG [routes.middleware] Initialized with method overriding = True, and path info altering = True
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Initializing extension manager.
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: portprofile.pyc
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: novatenant.pyc
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: _novatenant_view.py
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: __init__.pyc
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: __init__.py
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: extensions.py
+2012-04-23 15:47:26  WARNING [quantum.extensions.extensions] Did not find expected name "Extensions" in /home/rs2m/OpenStack_Essex/Quantum/quantum-2012.1/quantum/extensions/extensions.py
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: qos.py
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext name: Cisco qos
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext alias: Cisco qos
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext description: qos includes qos_name and qos_desc
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext namespace: http://docs.ciscocloud.com/api/ext/qos/v1.0
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext updated: 2011-07-25T13:25:27-06:00
+2012-04-23 15:47:26  WARNING [quantum.extensions.extensions] extension Cisco qos not supported by plugin <quantum.plugins.openvswitch.ovs_quantum_plugin.OVSQuantumPlugin object at 0x2701c90>
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: _credential_view.py
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: novatenant.py
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext name: Cisco Nova Tenant
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext alias: Cisco Nova Tenant
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext description: novatenant resource is used by nova side to invoke quantum api
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext namespace: http://docs.ciscocloud.com/api/ext/novatenant/v1.0
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext updated: 2011-08-09T13:25:27-06:00
+2012-04-23 15:47:26  WARNING [quantum.extensions.extensions] extension Cisco Nova Tenant not supported by plugin <quantum.plugins.openvswitch.ovs_quantum_plugin.OVSQuantumPlugin object at 0x2701c90>
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: portstats.py
+2012-04-23 15:47:26  WARNING [quantum.extensions.extensions] extension file portstats.py wasnt loaded due to cannot import name extensions
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: _qos_view.py
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: _pprofiles.pyc
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: credential.pyc
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: qos.pyc
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: _novatenant_view.pyc
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: _qos_view.pyc
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: _portstats_view.pyc
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: _credential_view.pyc
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: _portstats_view.py
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: portprofile.py
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext name: Cisco Port Profile
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext alias: Cisco Port Profile
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext description: Portprofile include QoS information
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext namespace: http://docs.ciscocloud.com/api/ext/portprofile/v1.0
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext updated: 2011-07-23T13:25:27-06:00
+2012-04-23 15:47:26  WARNING [quantum.extensions.extensions] extension Cisco Port Profile not supported by plugin <quantum.plugins.openvswitch.ovs_quantum_plugin.OVSQuantumPlugin object at 0x2701c90>
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: multiport.pyc
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: _pprofiles.py
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: extensions.pyc
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: credential.py
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext name: Cisco Credential
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext alias: Cisco Credential
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext description: Credential include username and password
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext namespace: http://docs.ciscocloud.com/api/ext/credential/v1.0
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext updated: 2011-07-25T13:25:27-06:00
+2012-04-23 15:47:26  WARNING [quantum.extensions.extensions] extension Cisco Credential not supported by plugin <quantum.plugins.openvswitch.ovs_quantum_plugin.OVSQuantumPlugin object at 0x2701c90>
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: multiport.py
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext name: Cisco Multiport
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext alias: Cisco Multiport
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext description: handle multiple ports in one call
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext namespace: http://docs.ciscocloud.com/api/ext/multiport/v1.0
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext updated: 2011-08-25T13:25:27-06:00
+2012-04-23 15:47:26  WARNING [quantum.extensions.extensions] extension Cisco Multiport not supported by plugin <quantum.plugins.openvswitch.ovs_quantum_plugin.OVSQuantumPlugin object at 0x2701c90>
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: portstats.pyc
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: portprofile.pyc
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: novatenant.pyc
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: _novatenant_view.py
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: __init__.pyc
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: __init__.py
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: extensions.py
+2012-04-23 15:47:26  WARNING [quantum.extensions.extensions] Did not find expected name "Extensions" in /usr/local/lib/python2.7/dist-packages/quantum-2012.1-py2.7.egg/quantum/extensions/extensions.py
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: qos.py
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext name: Cisco qos
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext alias: Cisco qos
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext description: qos includes qos_name and qos_desc
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext namespace: http://docs.ciscocloud.com/api/ext/qos/v1.0
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext updated: 2011-07-25T13:25:27-06:00
+2012-04-23 15:47:26  WARNING [quantum.extensions.extensions] extension Cisco qos not supported by plugin <quantum.plugins.openvswitch.ovs_quantum_plugin.OVSQuantumPlugin object at 0x2701c90>
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: _credential_view.py
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: novatenant.py
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext name: Cisco Nova Tenant
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext alias: Cisco Nova Tenant
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext description: novatenant resource is used by nova side to invoke quantum api
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext namespace: http://docs.ciscocloud.com/api/ext/novatenant/v1.0
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext updated: 2011-08-09T13:25:27-06:00
+2012-04-23 15:47:26  WARNING [quantum.extensions.extensions] extension Cisco Nova Tenant not supported by plugin <quantum.plugins.openvswitch.ovs_quantum_plugin.OVSQuantumPlugin object at 0x2701c90>
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: portstats.py
+2012-04-23 15:47:26  WARNING [quantum.extensions.extensions] extension file portstats.py wasnt loaded due to cannot import name extensions
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: _qos_view.py
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: _pprofiles.pyc
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: credential.pyc
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: qos.pyc
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: _novatenant_view.pyc
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: _qos_view.pyc
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: _portstats_view.pyc
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: _credential_view.pyc
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: _portstats_view.py
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: portprofile.py
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext name: Cisco Port Profile
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext alias: Cisco Port Profile
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext description: Portprofile include QoS information
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext namespace: http://docs.ciscocloud.com/api/ext/portprofile/v1.0
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext updated: 2011-07-23T13:25:27-06:00
+2012-04-23 15:47:26  WARNING [quantum.extensions.extensions] extension Cisco Port Profile not supported by plugin <quantum.plugins.openvswitch.ovs_quantum_plugin.OVSQuantumPlugin object at 0x2701c90>
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: multiport.pyc
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: _pprofiles.py
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: extensions.pyc
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: credential.py
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext name: Cisco Credential
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext alias: Cisco Credential
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext description: Credential include username and password
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext namespace: http://docs.ciscocloud.com/api/ext/credential/v1.0
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext updated: 2011-07-25T13:25:27-06:00
+2012-04-23 15:47:26  WARNING [quantum.extensions.extensions] extension Cisco Credential not supported by plugin <quantum.plugins.openvswitch.ovs_quantum_plugin.OVSQuantumPlugin object at 0x2701c90>
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: multiport.py
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext name: Cisco Multiport
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext alias: Cisco Multiport
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext description: handle multiple ports in one call
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext namespace: http://docs.ciscocloud.com/api/ext/multiport/v1.0
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext updated: 2011-08-25T13:25:27-06:00
+2012-04-23 15:47:26  WARNING [quantum.extensions.extensions] extension Cisco Multiport not supported by plugin <quantum.plugins.openvswitch.ovs_quantum_plugin.OVSQuantumPlugin object at 0x2701c90>
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: portstats.pyc
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Extended resource: extensions
+2012-04-23 15:47:26    DEBUG [routes.middleware] Initialized with method overriding = True, and path info altering = True
+2012-04-23 15:47:26     INFO [keystone.middleware.auth_token] Starting keystone auth_token middleware
+2012-04-23 15:47:26    DEBUG [routes.middleware] Initialized with method overriding = True, and path info altering = True
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Initializing extension manager.
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: portprofile.pyc
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: novatenant.pyc
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: _novatenant_view.py
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: __init__.pyc
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: __init__.py
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: extensions.py
+2012-04-23 15:47:26  WARNING [quantum.extensions.extensions] Did not find expected name "Extensions" in /home/rs2m/OpenStack_Essex/Quantum/quantum-2012.1/quantum/extensions/extensions.py
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: qos.py
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext name: Cisco qos
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext alias: Cisco qos
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext description: qos includes qos_name and qos_desc
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext namespace: http://docs.ciscocloud.com/api/ext/qos/v1.0
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext updated: 2011-07-25T13:25:27-06:00
+2012-04-23 15:47:26  WARNING [quantum.extensions.extensions] extension Cisco qos not supported by plugin <quantum.plugins.openvswitch.ovs_quantum_plugin.OVSQuantumPlugin object at 0x2701c90>
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: _credential_view.py
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: novatenant.py
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext name: Cisco Nova Tenant
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext alias: Cisco Nova Tenant
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext description: novatenant resource is used by nova side to invoke quantum api
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext namespace: http://docs.ciscocloud.com/api/ext/novatenant/v1.0
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext updated: 2011-08-09T13:25:27-06:00
+2012-04-23 15:47:26  WARNING [quantum.extensions.extensions] extension Cisco Nova Tenant not supported by plugin <quantum.plugins.openvswitch.ovs_quantum_plugin.OVSQuantumPlugin object at 0x2701c90>
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: portstats.py
+2012-04-23 15:47:26  WARNING [quantum.extensions.extensions] extension file portstats.py wasnt loaded due to cannot import name extensions
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: _qos_view.py
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: _pprofiles.pyc
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: credential.pyc
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: qos.pyc
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: _novatenant_view.pyc
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: _qos_view.pyc
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: _portstats_view.pyc
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: _credential_view.pyc
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: _portstats_view.py
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: portprofile.py
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext name: Cisco Port Profile
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext alias: Cisco Port Profile
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext description: Portprofile include QoS information
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext namespace: http://docs.ciscocloud.com/api/ext/portprofile/v1.0
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext updated: 2011-07-23T13:25:27-06:00
+2012-04-23 15:47:26  WARNING [quantum.extensions.extensions] extension Cisco Port Profile not supported by plugin <quantum.plugins.openvswitch.ovs_quantum_plugin.OVSQuantumPlugin object at 0x2701c90>
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: multiport.pyc
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: _pprofiles.py
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: extensions.pyc
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: credential.py
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext name: Cisco Credential
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext alias: Cisco Credential
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext description: Credential include username and password
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext namespace: http://docs.ciscocloud.com/api/ext/credential/v1.0
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext updated: 2011-07-25T13:25:27-06:00
+2012-04-23 15:47:26  WARNING [quantum.extensions.extensions] extension Cisco Credential not supported by plugin <quantum.plugins.openvswitch.ovs_quantum_plugin.OVSQuantumPlugin object at 0x2701c90>
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: multiport.py
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext name: Cisco Multiport
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext alias: Cisco Multiport
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext description: handle multiple ports in one call
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext namespace: http://docs.ciscocloud.com/api/ext/multiport/v1.0
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext updated: 2011-08-25T13:25:27-06:00
+2012-04-23 15:47:26  WARNING [quantum.extensions.extensions] extension Cisco Multiport not supported by plugin <quantum.plugins.openvswitch.ovs_quantum_plugin.OVSQuantumPlugin object at 0x2701c90>
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: portstats.pyc
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: portprofile.pyc
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: novatenant.pyc
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: _novatenant_view.py
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: __init__.pyc
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: __init__.py
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: extensions.py
+2012-04-23 15:47:26  WARNING [quantum.extensions.extensions] Did not find expected name "Extensions" in /usr/local/lib/python2.7/dist-packages/quantum-2012.1-py2.7.egg/quantum/extensions/extensions.py
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: qos.py
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext name: Cisco qos
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext alias: Cisco qos
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext description: qos includes qos_name and qos_desc
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext namespace: http://docs.ciscocloud.com/api/ext/qos/v1.0
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext updated: 2011-07-25T13:25:27-06:00
+2012-04-23 15:47:26  WARNING [quantum.extensions.extensions] extension Cisco qos not supported by plugin <quantum.plugins.openvswitch.ovs_quantum_plugin.OVSQuantumPlugin object at 0x2701c90>
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: _credential_view.py
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: novatenant.py
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext name: Cisco Nova Tenant
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext alias: Cisco Nova Tenant
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext description: novatenant resource is used by nova side to invoke quantum api
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext namespace: http://docs.ciscocloud.com/api/ext/novatenant/v1.0
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext updated: 2011-08-09T13:25:27-06:00
+2012-04-23 15:47:26  WARNING [quantum.extensions.extensions] extension Cisco Nova Tenant not supported by plugin <quantum.plugins.openvswitch.ovs_quantum_plugin.OVSQuantumPlugin object at 0x2701c90>
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: portstats.py
+2012-04-23 15:47:26  WARNING [quantum.extensions.extensions] extension file portstats.py wasnt loaded due to cannot import name extensions
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: _qos_view.py
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: _pprofiles.pyc
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: credential.pyc
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: qos.pyc
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: _novatenant_view.pyc
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: _qos_view.pyc
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: _portstats_view.pyc
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: _credential_view.pyc
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: _portstats_view.py
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: portprofile.py
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext name: Cisco Port Profile
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext alias: Cisco Port Profile
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext description: Portprofile include QoS information
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext namespace: http://docs.ciscocloud.com/api/ext/portprofile/v1.0
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext updated: 2011-07-23T13:25:27-06:00
+2012-04-23 15:47:26  WARNING [quantum.extensions.extensions] extension Cisco Port Profile not supported by plugin <quantum.plugins.openvswitch.ovs_quantum_plugin.OVSQuantumPlugin object at 0x2701c90>
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: multiport.pyc
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: _pprofiles.py
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: extensions.pyc
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: credential.py
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext name: Cisco Credential
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext alias: Cisco Credential
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext description: Credential include username and password
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext namespace: http://docs.ciscocloud.com/api/ext/credential/v1.0
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext updated: 2011-07-25T13:25:27-06:00
+2012-04-23 15:47:26  WARNING [quantum.extensions.extensions] extension Cisco Credential not supported by plugin <quantum.plugins.openvswitch.ovs_quantum_plugin.OVSQuantumPlugin object at 0x2701c90>
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: multiport.py
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext name: Cisco Multiport
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext alias: Cisco Multiport
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext description: handle multiple ports in one call
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext namespace: http://docs.ciscocloud.com/api/ext/multiport/v1.0
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Ext updated: 2011-08-25T13:25:27-06:00
+2012-04-23 15:47:26  WARNING [quantum.extensions.extensions] extension Cisco Multiport not supported by plugin <quantum.plugins.openvswitch.ovs_quantum_plugin.OVSQuantumPlugin object at 0x2701c90>
+2012-04-23 15:47:26     INFO [quantum.extensions.extensions] Loading extension file: portstats.pyc
+2012-04-23 15:47:26    DEBUG [quantum.extensions.extensions] Extended resource: extensions
+2012-04-23 15:47:26    DEBUG [routes.middleware] Initialized with method overriding = True, and path info altering = True
+2012-04-23 15:47:26     INFO [keystone.middleware.auth_token] Starting keystone auth_token middleware
+2012-04-23 15:47:26    DEBUG [eventlet.wsgi.server] (22719) wsgi starting up on http://0.0.0.0:9696/
+2012-04-23 15:50:13    DEBUG [keystone.middleware.auth_token] Authenticating user token
+2012-04-23 15:50:13    DEBUG [keystone.middleware.auth_token] Removing headers from request environment: X-Identity-Status,X-Tenant-Id,X-Tenant-Name,X-User-Id,X-User-Name,X-Roles,X-User,X-Tenant,X-Role
+2012-04-23 15:50:13  WARNING [keystone.middleware.auth_token] Unable to find authentication token in headers: {'CONTENT_LENGTH': '51', 'GATEWAY_INTERFACE': 'CGI/1.1', 'wsgi.version': (1, 0), 'SERVER_PROTOCOL': 'HTTP/1.0', 'SERVER_NAME': '127.0.0.1', 'REMOTE_ADDR': '127.0.0.1', 'wsgi.run_once': False, 'wsgi.errors': <open file '<stderr>', mode 'w' at 0x7ffdb3084270>, 'wsgi.multiprocess': False, 'SCRIPT_NAME': '/v1.1', 'SERVER_PORT': '9696', 'wsgi.url_scheme': 'http', 'wsgi.input': <eventlet.wsgi.Input object at 0x32097d0>, 'REQUEST_METHOD': 'POST', 'HTTP_HOST': '0.0.0.0:9696', 'PATH_INFO': '/tenants/default/networks.json', 'CONTENT_TYPE': 'application/json', 'wsgi.multithread': True, 'eventlet.input': <eventlet.wsgi.Input object at 0x32097d0>, 'HTTP_ACCEPT_ENCODING': 'identity', 'eventlet.posthooks': []}
+2012-04-23 15:50:13     INFO [keystone.middleware.auth_token] Invalid user token - rejecting request
+2012-04-23 15:50:13    DEBUG [eventlet.wsgi.server] 127.0.0.1 - - [23/Apr/2012 15:50:13] "POST /v1.1/tenants/default/networks.json HTTP/1.1" 401 461 0.000791

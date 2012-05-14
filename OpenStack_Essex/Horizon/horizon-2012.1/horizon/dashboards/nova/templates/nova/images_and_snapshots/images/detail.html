@@ -1,0 +1,16 @@
+{% extends 'nova/base.html' %}
+{% load i18n %}
+
+{% block title %}{% trans "Image Detail "%}{% endblock %}
+
+{% block page_header %}
+  {% include "horizon/common/_page_header.html" with title="Image Detail" %}
+{% endblock page_header %}
+
+{% block dash_main %}
+<div class="row-fluid">
+  <div class="span12">
+  {{ tab_group.render }}
+  </div>
+</div>
+{% endblock %}

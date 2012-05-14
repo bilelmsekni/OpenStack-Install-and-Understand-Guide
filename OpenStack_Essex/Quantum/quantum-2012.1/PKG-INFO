@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: quantum
+Version: 2012.1
+Summary: Quantum (virtual network service)
+Home-page: https://launchpad.net/quantum
+Author: Netstack
+Author-email: netstack@lists.launchpad.net
+License: Apache License 2.0
+Description: Quantum (virtual network service)
+Platform: UNKNOWN

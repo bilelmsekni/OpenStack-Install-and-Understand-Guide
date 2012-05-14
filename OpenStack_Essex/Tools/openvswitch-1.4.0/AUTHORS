@@ -1,0 +1,123 @@
+The following people, in alphabetical order, have either authored or
+signed off on commits in the Open vSwitch version control repository.
+
+Alexey I. Froloff       raorn@altlinux.org
+Andrew Evans            aevans@nicira.com
+Andrew Lambeth          wal@nicira.com
+Andy Southgate          andy.southgate@citrix.com
+Ben Pfaff               blp@nicira.com
+Bryan Phillippe         bp@toroki.com
+Casey Barker            crbarker@google.com
+Chris Wright            chrisw@sous-sol.org
+Chuck Short             zulcss@ubuntu.com
+Dan Wendlandt           dan@nicira.com
+Daniel Roman            droman@nicira.com
+David Erickson          derickso@stanford.edu
+Edward Tomasz Napierała trasz@freebsd.org
+Ethan Jackson           ethan@nicira.com
+Gaetano Catalli         gaetano.catalli@gmail.com
+Glen Gibb               grg@stanford.edu
+Hao Zheng               hzheng@nicira.com
+Ian Campbell            Ian.Campbell@citrix.com
+Jean Tourrilhes         jt@hpl.hp.com
+Jeremy Stribling        strib@nicira.com
+Jesse Gross             jesse@nicira.com
+Joe Perches             joe@perches.com
+Jun Nakajima            jun.nakajima@intel.com
+Justin Pettit           jpettit@nicira.com
+Keith Amidon            keith@nicira.com
+Martin Casado           casado@nicira.com
+Natasha Gude            natasha@nicira.com
+Neil McKee              neil.mckee@inmon.com
+Paul Fazzone            pfazzone@nicira.com
+Philippe Jung           phil.jung@free.fr
+Pravin B Shelar         pshelar@nicira.com
+Reid Price              reid@nicira.com
+Romain Lenglet          romain.lenglet@berabera.info
+Sajjad Lateef           slateef@nicira.com
+Sanjay Sane             ssane@nicira.com
+Shih-Hao Li             shli@nicira.com
+Simon Horman            horms@verge.net.au
+Tetsuo NAKAGAWA         nakagawa@mxc.nes.nec.co.jp
+Thomas Lacroix          thomas.lacroix@citrix.com
+Todd Deshane            deshantm@gmail.com
+Tom Everman             teverman@google.com
+Tsvi Slonim             tsvi@toroki.com
+Tyler Coumbes           coumbes@gmail.com
+Valient Gough           vgough@pobox.com
+Vivien Bernet-Rollande  vbr@soprive.net
+Wei Yongjun             yjwei@cn.fujitsu.com
+Yu Zhiguo               yuzg@cn.fujitsu.com
+
+The following additional people are mentioned in commit logs as having
+provided helpful bug reports or suggestions.
+
+Aaron M. Ucko           ucko@debian.org
+Aaron Rosen             arosen@clemson.edu
+Ahmed Bilal             numan252@gmail.com
+Alex Yip                alex@nicira.com
+Alexey I. Froloff       raorn@altlinux.org
+Bob Ball                bob.ball@citrix.com
+Brad Hall               brad@nicira.com
+Brandon Heller          brandonh@stanford.edu
+Brendan Kelley          bkelley@nicira.com
+Bryan Fulton            bryan@nicira.com
+Bryan Osoro             bosoro@nicira.com
+Cedric Hobbs            cedric@nicira.com
+Dave Walker             DaveWalker@ubuntu.com
+Derek Cormier           derek.cormier@lab.ntt.co.jp
+Duffie Cooley           dcooley@nicira.com
+DK Moon                 dkmoon@nicira.com
+Edwin Chiu              echiu@nicira.com
+Eivind Bulie Haanaes
+Gaetano Catalli         gaetano.catalli@gmail.com
+George Shuklin          amarao@desunote.ru
+Ghanem Bahri            bahri.ghanem@gmail.com
+Giuseppe de Candia      giuseppe.decandia@gmail.com
+Gordon Good             ggood@nicira.com
+Gregor Schaffrath       grsch@net.t-labs.tu-berlin.de
+Hassan Khan             hassan.khan@seecs.edu.pk
+Hector Oron             hector.oron@gmail.com
+Henrik Amren            henrik@nicira.com
+Jad Naous               jnaous@gmail.com
+Jan Medved              jmedved@juniper.net
+Janis Hamme             janis.hamme@student.kit.edu
+Jari Sundell            sundell.software@gmail.com
+Jed Daniels             openvswitch@jeddaniels.com
+Jeongkeun Lee           jklee@hp.com
+Joan Cirer              joan@ev0.net
+John Galgay             john@galgay.net
+Koichi Yagishita        yagishita.koichi@jrc.co.jp
+Krishna Miriyala        krishna@nicira.com
+Luiz Henrique Ozaki     luiz.ozaki@gmail.com
+Michael A. Collins      mike.a.collins@ark-net.org
+Michael Hu              mhu@nicira.com
+Michael Mao             mmao@nicira.com
+Mike Kruze              mkruze@nicira.com
+Murphy McCauley         murphy.mccauley@gmail.com
+Mikael Doverhag         mdoverhag@nicira.com
+Niklas Andersson        nandersson@nicira.com
+Pankaj Thakkar          thakkar@nicira.com
+Paulo Cravero           pcravero@as2594.net
+Peter Balland           peter@nicira.com
+Peter Phaal             peter.phaal@inmon.com
+Ram Jothikumar          rjothikumar@nicira.com
+Ramana Reddy            gtvrreddy@gmail.com
+Rob Hoes                rob.hoes@citrix.com
+Roger Leigh             rleigh@codelibre.net
+Sean Brady              sbrady@gtfservices.com
+Sebastian Andrzej Siewior  sebastian@breakpoint.cc
+Sébastien RICCIO        sr@swisscenter.com
+Srini Seetharaman       seethara@stanford.edu
+Stephen Hemminger       shemminger@vyatta.com
+Takayuki HAMA           t-hama@cb.jp.nec.com
+Teemu Koponen           koponen@nicira.com
+Vishal Swarankar        vishal.swarnkar@gmail.com
+Voravit T.              voravit@kth.se
+YAMAMOTO Takashi        yamamoto@valinux.co.jp
+Yongqiang Liu           liuyq7809@gmail.com
+kk yap                  yapkke@stanford.edu
+冯全树(Crab)          fqs888@126.com
+
+Thanks to all Open vSwitch contributors.  If you are not listed above
+but believe that you should be, please write to dev@openvswitch.org.

@@ -1,0 +1,42 @@
+{% load i18n %}
+<div class="table_wrapper">
+  <form action="{{ table.get_absolute_url }}" method="POST">{% csrf_token %}
+  {% with columns=table.get_columns rows=table.get_rows %}
+  <table id="{{ table.name }}" class="table table-bordered table-striped">
+    <thead>
+      <tr class='table_caption'>
+        <th class='table_header' colspan='{{ columns|length }}'>
+          <h3 class='table_title'>{{ table }}</h3>
+          {{ table.render_table_actions }}
+        </th>
+      </tr>
+      <tr>
+        {% for column in columns %}
+          <th {{ column.attr_string|safe }}>{{ column }}</th>
+        {% endfor %}
+      </tr>
+    </thead>
+    <tbody>
+    {% for row in rows %}
+      {{ row.render }}
+    {% empty %}
+    <tr class="{% cycle 'odd' 'even' %} empty">
+      <td colspan="{{ table.get_columns|length }}">{{ table.get_empty_message }}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="{{ table.get_columns|length }}">
+          <span>{% blocktrans count counter=rows|length %}Displaying {{ counter }} item{% plural %}Displaying {{ counter }} items{% endblocktrans %}</span>
+          {% if table.has_more_data %}
+          <span class="spacer">|</span>
+          <a href="?marker={{ table.get_marker }}">More&nbsp;&raquo;</a>
+          {% endif %}
+        </td>
+      </td>
+    </tfoot>
+  </table>
+  {% endwith %}
+  </form>
+</div>

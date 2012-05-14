@@ -1,0 +1,5 @@
+lib/dummy.o: lib/dummy.c config.h lib/dummy.h
+
+config.h:
+
+lib/dummy.h:

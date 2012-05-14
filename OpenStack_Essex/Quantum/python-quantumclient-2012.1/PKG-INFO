@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: python-quantumclient
+Version: 2012.1
+Summary: Client functionalities for Quantum
+Home-page: https://launchpad.net/quantum
+Author: Netstack
+Author-email: netstack@lists.launchpad.net
+License: Apache License 2.0
+Description: Client functionalities for Quantum
+Platform: UNKNOWN

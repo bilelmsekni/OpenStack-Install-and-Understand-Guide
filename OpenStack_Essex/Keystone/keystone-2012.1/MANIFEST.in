@@ -1,0 +1,18 @@
+include AUTHORS
+include LICENSE
+include HACKING.rst
+include README.rst
+include openstack-common.conf
+include run_tests.py
+include run_tests.sh
+include setup.cfg
+include setup.py
+include TODO
+include tox.ini
+include etc/*
+graft bin
+graft doc
+graft tests
+graft tools
+recursive-include keystone *.json *.xml *.cfg README
+global-exclude *.pyc *.sdx *.log *.db *.swp

@@ -1,0 +1,5 @@
+export OS_USERNAME=adminUser
+export OS_TENANT_NAME=adminTenant
+export OS_PASSWORD=adminUser
+export OS_AUTH_URL=http://157.159.100.240:5000/v2.0
+export OS_REGION_NAME=RegionOne
